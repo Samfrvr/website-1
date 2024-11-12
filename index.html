@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" href="pictures/favicon (3).ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hi,I'm Akinola Samuel</h1>
+            <p>Web Developer | Designer | Programmer</p>
+
+        </div>
+    </header>
+    <img src="pictures/0163a8ab-c780-4837-aa4f-c7932dc89dea.webp" alt="Avatar" class="Avatar">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionatre web developer with
+             experience in HTML,CSS and soon JavaScript.I'm interested in building clean and efficient websites that provide great user experiences.
+        </p>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3> Project 1</h3>
+            <p>A description of my first project.It was built using HTML,CSS and JAVASCRIPT.</p>
+        </div>
+        <div class="project-card">
+        <h3>Project 2</h3>
+        <p>A desciption of my second project.It showcases advanced CSS techniques.</p>
+    
+        </div>
+    
+        <div class="project-card">
+            <h3>Project 3</h3>
+            <p> A description of my third project.It's a full responsive website ceated with modern frameworks.</p>
+    
+        </div>
+    </section>
+
+
+    <section id="blogs">
+        <h2>Latest Blog Posts</h2>
+        <article>
+            <h3><a href="post1.html" target="_blank">How to Build a Responsive Website </a></h3>
+<p>A guide on building responsive layouts using modern CSS techniques.</p>
+<a href="post1.html">Read More</a>
+        </article>
+        <h3> <a href="post2.html">JavaScript for Beginners</a></h3>
+        <p>Understanding the basics of JavaScript and how to use it effectively.</p>
+        <a href="post2.html" target="_blank">Read More </a>
+        <article>
+
+        </article>
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for ="name">Name :</label>
+            <input type="text" id ="name" name="name" required>
+            <br>
+            <label for ="email">Email :</label>
+            <input type="email" id ="email" name="email" required>
+            <br>
+            <label for="message" >Message :</label>
+            <textarea  id ="message" name="message" required ></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <p>If you'd like to get in touch,free free to reach out via email at akintemisam@gmail.com or through social media.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sam Akin. All rights reserved.</p>
+    </footer>
+
+    <button onclick="topfunction()" id="scrollToTopBtn" title="Go to Top">Top</button>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
